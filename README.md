@@ -1,4 +1,4 @@
-node-web-scraper
+Screep Scrape the API
 ================
 
-Simple web scraper to get a movie name, release year and community rating from IMDB.
+A tool I use to scrape the Screep API html documentation to later be transferred to the Screep Autocomplete library.

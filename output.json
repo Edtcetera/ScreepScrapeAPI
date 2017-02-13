@@ -1,0 +1,89 @@
+{
+    "method": [
+        {
+            "title": "new RoomPosition(x, y, roomName)",
+            "description": "You can create new RoomPosition object using its constructor.",
+            "arguments": []
+        },
+        {
+            "title": "roomName",
+            "description": "The name of the room.",
+            "arguments": []
+        },
+        {
+            "title": "x",
+            "description": "X position in the room.",
+            "arguments": []
+        },
+        {
+            "title": "y",
+            "description": "Y position in the room.",
+            "arguments": []
+        },
+        {
+            "title": "createConstructionSite(structureType)",
+            "description": "Create new ConstructionSite at the specified location.",
+            "arguments": []
+        },
+        {
+            "title": "createFlag([name], [color], [secondaryColor])",
+            "description": "Create new Flag at the specified location.",
+            "arguments": []
+        },
+        {
+            "title": "findClosestByPath(type, [opts])findClosestByPath(objects, [opts])",
+            "description": "Find an object with the shortest path from the given position. Uses A* search algorithm and Dijkstra's algorithm.",
+            "arguments": []
+        },
+        {
+            "title": "findClosestByRange(type, [opts])findClosestByRange(objects, [opts])",
+            "description": "Find an object with the shortest linear distance from the given position.",
+            "arguments": []
+        },
+        {
+            "title": "findInRange(type, range, [opts])findInRange(objects, range, [opts])",
+            "description": "Find all objects in the specified linear range.",
+            "arguments": []
+        },
+        {
+            "title": "findPathTo(x, y, [opts])findPathTo(target, [opts])",
+            "description": "Find an optimal path to the specified position using A* search algorithm. This method is a shorthand for Room.findPath. If the target is in another room, then the corresponding exit will be used as a target.",
+            "arguments": []
+        },
+        {
+            "title": "getDirectionTo(x,y)getDirectionTo(target)",
+            "description": "Get linear direction to the specified position.",
+            "arguments": []
+        },
+        {
+            "title": "getRangeTo(x,y)getRangeTo(target)",
+            "description": "Get linear range to the specified position.",
+            "arguments": []
+        },
+        {
+            "title": "inRangeTo(x, y, range)inRangeTo(target, range)",
+            "description": "Check whether this position is in the given range of another position.",
+            "arguments": []
+        },
+        {
+            "title": "isEqualTo(x,y)isEqualTo(target)",
+            "description": "Check whether this position is the same as the specified position.",
+            "arguments": []
+        },
+        {
+            "title": "isNearTo(x,y)isNearTo(target)",
+            "description": "Check whether this position is on the adjacent square to the specified position. The same as inRangeTo(target, 1).",
+            "arguments": []
+        },
+        {
+            "title": "look()",
+            "description": "Get the list of objects at the specified room position.",
+            "arguments": []
+        },
+        {
+            "title": "lookFor(type)",
+            "description": "Get an object with the given type at the specified room position.",
+            "arguments": []
+        }
+    ]
+}

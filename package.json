@@ -1,0 +1,15 @@
+{
+  "name"         : "screep-scrape",
+  "version"      : "0.0.1",
+  "description"  : "Scrape le screep.",
+  "main"         : "server.js",
+  "author"       : "Edward",
+  "repository"   : {
+    "type" : "git",
+    "url"  : "https://github.com/Edtcetera/ScreepScrapeAPI"
+  },
+  "dependencies" : {
+    "request"    : "latest",
+    "cheerio"    : "latest"
+  }
+}
